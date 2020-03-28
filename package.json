@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-typescript-plus",
-  "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
+  "name": "hello-gatsby",
+  "description": "My starter kit for Gatsby projects based on gatsby-starter-typescript-plus",
   "version": "1.0.0",
-  "private": true,
-  "author": "Resi Respati <resir014@gmail.com>",
+  "private": false,
+  "author": "Chris Tham <chris.tham@hellotham.`com>",
   "keywords": [
     "gatsby"
   ],
@@ -26,6 +26,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "@reduxjs/toolkit": "^1.3.1",
     "babel-plugin-styled-components": "^1.10.7",
     "classnames": "^2.2.6",
     "gatsby": "^2.20.8",
@@ -33,6 +34,7 @@
     "gatsby-plugin-canonical-urls": "^2.2.1",
     "gatsby-plugin-emotion": "^4.2.1",
     "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-react-redux": "^1.1.0-0",
     "gatsby-plugin-sharp": "^2.5.3",
     "gatsby-plugin-typescript": "^2.3.1",
     "gatsby-remark-copy-linked-files": "^2.2.1",
@@ -52,6 +54,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
