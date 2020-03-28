@@ -1,16 +1,14 @@
 import React from 'react'
 import Container from '@material-ui/core/Container'
 import Typography from '@material-ui/core/Typography'
-import { Link } from 'gatsby-theme-material-ui'
+import { Link } from 'gatsby'
 import Paper from '@material-ui/core/Paper'
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://www.hellotham.com/">
-        Hello Tham Pty Ltd
-      </Link>{' '}
+      <Link to="https://www.hellotham.com/">Hello Tham Pty Ltd</Link>{' '}
       {new Date().getFullYear()}.
     </Typography>
   )

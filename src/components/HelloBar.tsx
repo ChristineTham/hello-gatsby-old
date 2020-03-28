@@ -7,7 +7,7 @@ import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
 
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { Link } from 'gatsby-theme-material-ui'
+import { Link } from 'gatsby'
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import Avatar from '@material-ui/core/Avatar'
@@ -60,19 +60,19 @@ export default function ButtonAppBar() {
             onClose={handleClose}
           >
             <MenuItem onClick={handleClose}>
-              <Link href="/">Home</Link>
+              <Link to="/">Home</Link>
             </MenuItem>
             <MenuItem onClick={handleClose}>
-              <Link href="/about">About</Link>
+              <Link to="/about">About</Link>
             </MenuItem>
           </Menu>
-          <Link color="inherit" href="/" className={classes.menuButton}>
+          <Link to="/" className={classes.menuButton}>
             <Avatar alt="Logo" variant="square" src="/images/logo-square.svg" />
           </Link>{' '}
           <Typography variant="h6" className={classes.title}>
             Hello Tham
           </Typography>
-          <Avatar alt="Profile" src="images/profile.jpg" />
+          <Avatar alt="Profile" src="/images/profile.jpg" />
         </Toolbar>
       </AppBar>
       <Toolbar />
