@@ -22,6 +22,10 @@
     "preserveConstEnums": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": [ "src/*" ]
+    }
   },
   "include": ["./src/**/*", "__tests__"]
 }

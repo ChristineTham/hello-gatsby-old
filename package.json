@@ -27,7 +27,7 @@
     "lc": "npm run type-check && npm run lint",
     "test": "jest",
     "type-check": "tsc",
-    "storybook": "start-storybook",
+    "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -c .storybook -o .out"
   },
   "engines": {

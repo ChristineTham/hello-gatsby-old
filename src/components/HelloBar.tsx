@@ -12,6 +12,9 @@ import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import Avatar from '@material-ui/core/Avatar'
 
+import logo from '../images/logo-square.svg'
+import profile from '../images/profile.jpg'
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -67,7 +70,7 @@ export default function HelloBar() {
             </MenuItem>
           </Menu>
           <Link to="/" className={classes.menuButton}>
-            <Avatar alt="Logo" variant="square" src="/images/logo-square.svg" />
+            <Avatar alt="Logo" variant="square" src={logo} />
           </Link>{' '}
           <Typography
             variant="h6"
@@ -76,7 +79,7 @@ export default function HelloBar() {
           >
             Hello Tham
           </Typography>
-          <Avatar alt="Profile" src="/images/profile.jpg" />
+          <Avatar alt="Profile" src={profile} />
         </Toolbar>
       </AppBar>
       <Toolbar />

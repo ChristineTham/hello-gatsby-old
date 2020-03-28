@@ -1,6 +1,7 @@
 import { createMuiTheme } from '@material-ui/core'
 
 const theme = createMuiTheme({
+  themeName: 'Hello Tham',
   typography: {
     fontFamily: [
       '-apple-system',
@@ -31,4 +32,4 @@ const theme = createMuiTheme({
   },
 })
 
-export default theme;
+export default theme
