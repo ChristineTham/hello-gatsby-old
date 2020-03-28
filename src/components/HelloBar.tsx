@@ -11,6 +11,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'gatsby-theme-material-ui'
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import Avatar from '@material-ui/core/Avatar';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -18,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
     },
     menuButton: {
-      marginRight: theme.spacing(2),
+      marginRight: theme.spacing(1),
     },
     title: {
       flexGrow: 1,
@@ -59,16 +60,16 @@ export default function ButtonAppBar() {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem onClick={handleClose}>Home</MenuItem>
-            <MenuItem onClick={handleClose}>About</MenuItem>
+            <MenuItem onClick={handleClose}><Link href="/">Home</Link></MenuItem>
+            <MenuItem onClick={handleClose}><Link href="/about">About</Link></MenuItem>
           </Menu>
+          <Link color="inherit" href="/" className={classes.menuButton}>
+            <Avatar alt="Logo" variant="square" src="images/logo-square.svg" />
+          </Link>{' '}
           <Typography variant="h6" className={classes.title}>
             Hello Tham
           </Typography>
-          <Link color="inherit" href="/about">
-            About
-          </Link>{' '}
-          <Button color="inherit">Login</Button>
+          <Avatar alt="Profile" src="images/profile.jpg" />
         </Toolbar>
       </AppBar>
       <Toolbar />

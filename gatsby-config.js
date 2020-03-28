@@ -4,7 +4,7 @@ module.exports = {
     description:
       'My starter kit for Gatsby projects based on gatsby-starter-typescript-plus',
     keywords: 'gatsbyjs, gatsby, typescript, material-ui, redux, starter',
-    siteUrl: '/',
+    siteUrl: 'https://www.hellotham.com',
     author: {
       name: 'Chris Tham',
       url: 'https://www.hellotham.com',
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '/',
+        siteUrl: 'https://www.hellotham.com',
       },
     },
     'gatsby-plugin-emotion',
