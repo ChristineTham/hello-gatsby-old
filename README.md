@@ -4,20 +4,23 @@
   </a>
 </p>
 <h1 align="center">
-  gatsby-starter-typescript-plus
+  hello-gatsby
 </h1>
 
-> A starter kit for TypeScript-based Gatsby projects with sensible defaults.
+> My starter kit for Gatsby projects based on gatsby-starter-typescript-plus
 
-This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites written in TypeScript. It includes the bare essentials for you to get started (styling, Markdown parsing, minimal toolset).
+This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites written in TypeScript.
+It is the basis for my Gatsby React projects.
 
 ## 🗒️ Features
 
 - TypeScript
-- ESLint (with custom ESLint rules)
-- Markdown rendering with Remark
-- Basic component structure
+- ESLint (with custom ESLint rules) and Prettier
+- Material UI
 - Styling with [emotion](https://emotion.sh/)
+- Redux, Redux Toolkit, React Redux
+- HelloBar component
+- Testing with Jest, Cypress, Storybook
 
 ## 🚀 Quick start
 
@@ -38,7 +41,7 @@ This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites writte
     Use the `gatsby-cli` to create a new site and install its dependencies.
 
     ```bash
-    gatsby new project-name https://github.com/resir014/gatsby-starter-typescript-plus
+    gatsby new project-name https://github.com/ChristineTham/hello-gatsby.git
     ```
 
 2.  **Start developing.**
@@ -87,8 +90,10 @@ This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites writte
 
 ## ❤️ Credits
 
-Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site generator for [React](https://facebook.github.io/react/).
+Based on [gatsby-starter-typescript-plus](https://gatsby-starter-typescript-plus.netlify.com).
+Built with [Gatsby](https://www.gatsbyjs.org/) -
+the blazing-fast static site generator for [React](https://reactjs.org/).
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/resir014/gatsby-starter-typescript-plus)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ChristineTham/hello-gatsby.git)

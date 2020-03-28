@@ -75,6 +75,7 @@
     "@types/react-test-renderer": "^16.9.2",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
+    "babel-plugin-emotion": "^10.0.29",
     "babel-preset-gatsby": "^0.3.1",
     "eslint": "^6.8.0",
     "eslint-config-blvd": "^1.0.2",
@@ -83,6 +84,7 @@
     "gh-pages": "^2.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.2.3",
+    "jest-emotion": "^10.0.32",
     "prettier": "^2.0.2",
     "react-test-renderer": "^16.13.1",
     "rimraf": "^3.0.2"
