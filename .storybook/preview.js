@@ -1,11 +1,8 @@
 import React from 'react';
 
-import { configure, addDecorator, addParameters } from '@storybook/react';
+import { addParameters } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
-
-import { EmotionThemeProvider } from './decorators';
-import GlobalStyles from '../src/components/Layout/GlobalStyles';
 
 // Gatsby Setup
 // ============================================
@@ -34,17 +31,4 @@ addParameters({
     panelPosition: 'right',
   },
 });
-
-// Storybook Decorators
-// ============================================
-// Global Styles ==============================
-addDecorator(story => (
-  <>
-    <GlobalStyles />
-    <div style={{ padding: '3rem' }}>{story()}</div>
-  </>
-));
-
-// Emotion Theme Provider =====================
-addDecorator(EmotionThemeProvider);
 

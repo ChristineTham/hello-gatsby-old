@@ -8,6 +8,9 @@ public/
 # Gatsby cache
 .cache/
 
+# Storybook
+storybook-static/
+
 # Logs
 logs
 *.log
