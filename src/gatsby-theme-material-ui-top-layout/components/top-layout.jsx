@@ -1,6 +1,6 @@
 import React from 'react'
 import { Provider } from 'react-redux'
-import { Container } from '@material-ui/core'
+// import { Container } from '@material-ui/core'
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 import ThemeTopLayout from 'gatsby-theme-material-ui-top-layout/src/components/top-layout'
@@ -15,7 +15,7 @@ export default function TopLayout({ children, theme }) {
     <Provider store={store}>
       <ThemeTopLayout theme={theme}>
         <HelloBar />
-        <Container maxWidth="m">{children}</Container>
+        {children}
       </ThemeTopLayout>
     </Provider>
   )
