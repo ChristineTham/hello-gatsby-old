@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 )
 
-export default function ButtonAppBar() {
+export default function HelloBar() {
   const classes = useStyles()
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null)

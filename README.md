@@ -20,7 +20,7 @@ It is the basis for my Gatsby React projects.
 - Styling with [emotion](https://emotion.sh/)
 - Redux, Redux Toolkit, React Redux
 - HelloBar component
-- Testing with Jest, Cypress, Storybook
+- Testing with Jest
 
 ## 🚀 Quick start
 

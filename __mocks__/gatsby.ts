@@ -1,6 +1,8 @@
-const React = require('react')
-const gatsby = jest.requireActual('gatsby')
+import React from 'react';
 
+const gatsby = jest.requireActual('gatsby');
+
+// Mocks graphql() function, Link component, and StaticQuery component
 module.exports = {
   ...gatsby,
   graphql: jest.fn(),
@@ -24,4 +26,4 @@ module.exports = {
   ),
   StaticQuery: jest.fn(),
   useStaticQuery: jest.fn(),
-}
+};

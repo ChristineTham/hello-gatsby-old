@@ -11,7 +11,22 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["./", "src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx", "json"],
+      },
+      // Resolve Aliases
+      // =================================
+      "alias": {
+        "map": [
+          ["~", "./src"],
+          ["@theme/styled", "./src/styled"],
+        ],
+        "extensions": [".js", ".jsx", ".ts", ".tsx", "json", ".d.ts" ],
+      },
+    },
   },
   "rules": {
     "max-len": ["error", { "code": 140, "ignoreUrls": true }],
