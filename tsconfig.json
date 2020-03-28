@@ -23,5 +23,5 @@
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "__tests__"]
 }

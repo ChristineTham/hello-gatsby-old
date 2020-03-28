@@ -69,7 +69,11 @@ export default function ButtonAppBar() {
           <Link to="/" className={classes.menuButton}>
             <Avatar alt="Logo" variant="square" src="/images/logo-square.svg" />
           </Link>{' '}
-          <Typography variant="h6" className={classes.title}>
+          <Typography
+            variant="h6"
+            className={classes.title}
+            data-testid="app-title"
+          >
             Hello Tham
           </Typography>
           <Avatar alt="Profile" src="/images/profile.jpg" />
