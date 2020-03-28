@@ -2,21 +2,29 @@ import { createMuiTheme } from '@material-ui/core'
 
 const theme = createMuiTheme({
   typography: {
-    fontFamily: ['Roboto', 'sans-serif'].join(','),
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
   },
   palette: {
     primary: {
-      main: '#556cd6',
+      main: '#660099',
     },
     secondary: {
-      main: '#19857b',
+      main: '#cc3366',
     },
-    error: {
-      main: '#ff0000',
-    },
-    background: {
-      default: '#fff',
-    },
+    // background: {
+    //   default: '#ff99cc',
+    // },
   },
 })
 

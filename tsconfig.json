@@ -3,7 +3,14 @@
     "module": "commonjs",
     "target": "esnext",
     "jsx": "preserve",
-    "lib": ["dom", "es2015", "es2017"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
+//    "lib": ["dom", "es2015", "es2017"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "strict": true,
     "noEmit": true,
     "isolatedModules": true,

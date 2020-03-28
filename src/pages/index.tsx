@@ -3,14 +3,14 @@ import Container from '@material-ui/core/Container'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 import { Link } from 'gatsby-theme-material-ui'
-import ProTip from '../components/ProTip'
+import Button from '@material-ui/core/Button'
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link color="inherit" href="https://www.hellotham.com/">
+        Hello Tham Pty Ltd
       </Link>{' '}
       {new Date().getFullYear()}.
     </Typography>
@@ -27,7 +27,9 @@ export default function Index() {
         <Link to="/about" color="secondary">
           Go to the about page
         </Link>
-        <ProTip />
+        <Button variant="contained" color="primary">
+          Hello World
+        </Button>
         <Copyright />
       </Box>
     </Container>
