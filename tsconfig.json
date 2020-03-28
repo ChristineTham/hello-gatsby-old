@@ -22,15 +22,6 @@
     "preserveConstEnums": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
-    "baseUrl": "./",
-    "paths": {
-      "~/*": [
-        "src/*"
-      ],
-      "@theme/styled": [
-        "src/styled"
-      ]
-    }
   },
   "include": ["./src/**/*", "__tests__"]
 }
